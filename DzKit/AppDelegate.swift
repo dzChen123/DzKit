@@ -15,8 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow.init(frame: UIScreen.main.bounds)
         
-        let testController = UIViewController()
-        testController.view.backgroundColor = .red
+        let testController = TestViewController()
         window?.rootViewController = testController
         window?.makeKeyAndVisible()
         //ceshi
