@@ -52,7 +52,7 @@ extension UIButton {
     }
     
     //按钮的图文剧中
-    func relayoutImageTitle(with space: CGFloat, position: DzButtonImageTitlePosition) {
+    func dzRelayoutImageTitle(with space: CGFloat, position: DzButtonImageTitlePosition) {
         layoutIfNeeded()
         
         let space_half = space / 2.0
