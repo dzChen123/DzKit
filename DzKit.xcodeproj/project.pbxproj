@@ -15,6 +15,12 @@
 		06F16532286DA526001D0165 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F16531286DA526001D0165 /* TestViewController.swift */; };
 		06F16536286DA5B9001D0165 /* avatar.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 06F16535286DA5B9001D0165 /* avatar.JPG */; };
 		06F16538286DA815001D0165 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F16537286DA815001D0165 /* Image.xcassets */; };
+		06F1653A286E8C3F001D0165 /* UIImage+DzKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F16539286E8C3F001D0165 /* UIImage+DzKit.swift */; };
+		06F1653C286E8EB6001D0165 /* UIFont+DzKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1653B286E8EB6001D0165 /* UIFont+DzKit.swift */; };
+		06F1653F286E90DA001D0165 /* String+DzKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1653E286E90DA001D0165 /* String+DzKit.swift */; };
+		06F16541286E953A001D0165 /* Array+DzKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F16540286E953A001D0165 /* Array+DzKit.swift */; };
+		06F16543286E9597001D0165 /* Dictionary+DzKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F16542286E9597001D0165 /* Dictionary+DzKit.swift */; };
+		06F16545286E95FC001D0165 /* UILabel+DzKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F16544286E95FC001D0165 /* UILabel+DzKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		06F16531286DA526001D0165 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		06F16535286DA5B9001D0165 /* avatar.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.JPG; sourceTree = "<group>"; };
 		06F16537286DA815001D0165 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		06F16539286E8C3F001D0165 /* UIImage+DzKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+DzKit.swift"; sourceTree = "<group>"; };
+		06F1653B286E8EB6001D0165 /* UIFont+DzKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DzKit.swift"; sourceTree = "<group>"; };
+		06F1653E286E90DA001D0165 /* String+DzKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DzKit.swift"; sourceTree = "<group>"; };
+		06F16540286E953A001D0165 /* Array+DzKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+DzKit.swift"; sourceTree = "<group>"; };
+		06F16542286E9597001D0165 /* Dictionary+DzKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+DzKit.swift"; sourceTree = "<group>"; };
+		06F16544286E95FC001D0165 /* UILabel+DzKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+DzKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +96,13 @@
 			isa = PBXGroup;
 			children = (
 				06F1652D286D93D3001D0165 /* UIButton+DzKit.swift */,
+				06F16544286E95FC001D0165 /* UILabel+DzKit.swift */,
 				06F1652F286D957E001D0165 /* UIColor+DzKit.swift */,
+				06F16539286E8C3F001D0165 /* UIImage+DzKit.swift */,
+				06F1653B286E8EB6001D0165 /* UIFont+DzKit.swift */,
+				06F1653E286E90DA001D0165 /* String+DzKit.swift */,
+				06F16540286E953A001D0165 /* Array+DzKit.swift */,
+				06F16542286E9597001D0165 /* Dictionary+DzKit.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -161,10 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F1653F286E90DA001D0165 /* String+DzKit.swift in Sources */,
 				06F16530286D957E001D0165 /* UIColor+DzKit.swift in Sources */,
 				06F1652E286D93D3001D0165 /* UIButton+DzKit.swift in Sources */,
+				06F16545286E95FC001D0165 /* UILabel+DzKit.swift in Sources */,
 				06F16532286DA526001D0165 /* TestViewController.swift in Sources */,
 				06F16518286D6C12001D0165 /* AppDelegate.swift in Sources */,
+				06F1653A286E8C3F001D0165 /* UIImage+DzKit.swift in Sources */,
+				06F1653C286E8EB6001D0165 /* UIFont+DzKit.swift in Sources */,
+				06F16543286E9597001D0165 /* Dictionary+DzKit.swift in Sources */,
+				06F16541286E953A001D0165 /* Array+DzKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
